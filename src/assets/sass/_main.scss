@@ -19,4 +19,17 @@ main {
   #feauture {
     padding: 6rem 0;
   }
+  // More
+  #more {
+    padding: 4rem 0;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    img {
+      border-radius: 1rem;
+      transform: skewX(7deg);
+    }
+    .wrapper {
+      margin-top: 4rem !important;
+    }
+  }
 }

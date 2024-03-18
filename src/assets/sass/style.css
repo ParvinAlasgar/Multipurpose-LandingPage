@@ -15,6 +15,18 @@ nav {
 main #feauture {
   padding: 6rem 0;
 }
+main #more {
+  padding: 4rem 0;
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+}
+main #more img {
+  border-radius: 1rem;
+  transform: skewX(7deg);
+}
+main #more .wrapper {
+  margin-top: 4rem !important;
+}
 
 @media only screen and (max-width: 768px) {
   #nav ul {
@@ -39,6 +51,15 @@ main #feauture {
   }
   #header .text-holder h1 {
     font-size: 1.4rem;
+  }
+  #feauture,
+  #more {
+    font-size: 0.8rem !important;
+  }
+  #feauture img,
+  #more img {
+    width: 75%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 320px) {
