@@ -61,7 +61,7 @@ main #question {
   #question,
   #start,
   #social,
-  #ready {
+  #ready, #footer {
     font-size: 0.8rem !important;
   }
   #feauture img,
@@ -70,7 +70,7 @@ main #question {
   #question img,
   #start img,
   #social img,
-  #ready img {
+  #ready img, #footer img {
     width: 75%;
     margin: auto;
   }
