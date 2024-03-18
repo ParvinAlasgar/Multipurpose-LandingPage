@@ -1,1 +1,1 @@
-# SB-LandingPage
+# Multipurpose-LandingPage
