@@ -60,7 +60,8 @@ main #question {
   #price,
   #question,
   #start,
-  #social {
+  #social,
+  #ready {
     font-size: 0.8rem !important;
   }
   #feauture img,
@@ -68,7 +69,8 @@ main #question {
   #price img,
   #question img,
   #start img,
-  #social img {
+  #social img,
+  #ready img {
     width: 75%;
     margin: auto;
   }
