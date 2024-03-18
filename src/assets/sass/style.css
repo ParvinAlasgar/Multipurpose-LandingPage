@@ -27,6 +27,9 @@ main #more img {
 main #more .wrapper {
   margin-top: 4rem !important;
 }
+main #question {
+  padding: 6rem 0;
+}
 
 @media only screen and (max-width: 768px) {
   #nav ul {
@@ -54,12 +57,14 @@ main #more .wrapper {
   }
   #feauture,
   #more,
-  #price {
+  #price,
+  #question {
     font-size: 0.8rem !important;
   }
   #feauture img,
   #more img,
-  #price img {
+  #price img,
+  #question img {
     width: 75%;
     margin: auto;
   }
