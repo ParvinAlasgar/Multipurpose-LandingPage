@@ -51,11 +51,20 @@
   #question,
   #start,
   #social,
-  #ready,#footer {
+  #ready,
+  #footer {
     font-size: 0.8rem !important;
     img {
       width: 75%;
       margin: auto;
+    }
+  }
+  #price {
+    p {
+      text-align: center;
+    }
+    ul {
+      text-align: center !important;
     }
   }
 }
