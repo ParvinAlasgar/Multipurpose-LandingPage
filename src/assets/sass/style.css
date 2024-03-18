@@ -58,13 +58,15 @@ main #question {
   #feauture,
   #more,
   #price,
-  #question {
+  #question,
+  #start {
     font-size: 0.8rem !important;
   }
   #feauture img,
   #more img,
   #price img,
-  #question img {
+  #question img,
+  #start img {
     width: 75%;
     margin: auto;
   }
