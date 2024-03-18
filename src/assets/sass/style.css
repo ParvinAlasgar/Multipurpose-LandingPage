@@ -6,9 +6,35 @@ nav {
   background-color: #1b48e7;
 }
 
-@media only screen and (max-width: 576px) {
-  #nav .btn {
+#header {
+  background-color: #1b48e7;
+  padding: 6rem 0;
+  border-bottom-right-radius: 10rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav ul {
+    justify-content: center !important;
+  }
+  #nav ul .btn {
     display: none;
+  }
+  #header .text-holder {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #nav .logo {
+    display: none;
+  }
+  #nav ul {
+    justify-content: center !important;
+  }
+  #nav ul .btn {
+    display: none;
+  }
+  #header .text-holder h1 {
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 320px) {

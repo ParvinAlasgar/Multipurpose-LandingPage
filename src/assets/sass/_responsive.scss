@@ -10,13 +10,39 @@
 
 // Medium devices (tablets, 768px and down)
 @media only screen and (max-width: 768px) {
+  #nav {
+    ul {
+      justify-content: center !important;
+      .btn {
+        display: none;
+      }
+    }
+  }
+  #header {
+    .text-holder {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)
 @media only screen and (max-width: 576px) {
   #nav {
-    .btn {
+    .logo {
       display: none;
+    }
+    ul {
+      justify-content: center !important;
+      .btn {
+        display: none;
+      }
+    }
+  }
+  #header {
+    .text-holder {
+      h1 {
+        font-size: 1.4rem;
+      }
     }
   }
 }

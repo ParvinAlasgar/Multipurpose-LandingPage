@@ -6,3 +6,10 @@ html {
 nav {
   background-color: $colorFirst;
 }
+
+// Header
+#header {
+  background-color: $colorFirst;
+  padding: 6rem 0;
+  border-bottom-right-radius: 10rem;
+}
