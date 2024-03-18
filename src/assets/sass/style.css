@@ -1,0 +1,24 @@
+html {
+  font-size: 1rem;
+}
+
+nav {
+  background-color: #1b48e7;
+}
+
+@media only screen and (max-width: 576px) {
+  #nav .btn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #nav {
+    font-size: 0.9rem;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #nav ul {
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=style.css.map */
