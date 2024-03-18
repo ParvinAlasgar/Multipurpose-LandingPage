@@ -53,11 +53,13 @@ main #more .wrapper {
     font-size: 1.4rem;
   }
   #feauture,
-  #more {
+  #more,
+  #price {
     font-size: 0.8rem !important;
   }
   #feauture img,
-  #more img {
+  #more img,
+  #price img {
     width: 75%;
     margin: auto;
   }
